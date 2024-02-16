@@ -1,0 +1,54 @@
+Fundamento de Software
+
+<Software> Es todo lo digital, algo que no se puede tocar pero si ver, es lo opuesto a hardware,
+todo programa hecho en binario
+
+*Formal*> El software es un término que se refiere a los programas informáticos, es decir, 
+conjuntos de instrucciones y datos que permiten realizar diversas tareas en un ordenador u otro dispositivo electrónico. 
+Estas instrucciones son escritas en lenguajes de programación por los desarrolladores de software y luego se ejecutan en el hardware de la computadora para realizar diversas funciones.
+
+
+<Lenguaje de programación>EL leguanje de programación es para comunicarnos con el computadora y dar instrucciónes precisas
+al ordenador para realizar una tarea especificamente
+
+*Formal*>Un lenguaje de programación es un conjunto de reglas y símbolos que permiten a los programadores escribir programas informáticos.
+Estos lenguajes están diseñados para comunicar instrucciones precisas al ordenador para realizar una tarea específica.
+
+
+<Programación>Es un conjunto de ordenes que se les da la computadora mediante lenguaje de programacion mediante codigos
+
+*Formal*>La programación es el proceso de diseñar, codificar, probar y mantener el código fuente de un software o aplicación informática.
+Implica escribir instrucciones en un lenguaje de programación específico que una computadora puede entender y ejecutar para realizar una tarea deseada.
+
+
+<GIT>Es un programa donde podemos subir nuestros proyectos u codigos a la nube y nos permite
+modificar nuestris poryectos subidos
+
+*Formal*>Git es un sistema de control de versiones distribuido ampliamente utilizado en el desarrollo de software.
+Fue creado por Linus Torvalds en 2005 para gestionar el desarrollo del kernel de Linux,
+pero desde entonces se ha convertido en una herramienta fundamental en la industria del desarrollo de software para gestionar el seguimiento de cambios en el código fuente.
+
+
+<Compilar>Es el traductor que se encarga de psar el leanguaje de programación a binario para que la computadora pueda entender la 
+orden o instrucción
+
+*Formal*>Compilar es el proceso mediante el cual se transforma el código fuente de un programa, escrito en un lenguaje de programación de alto nivel, en un formato ejecutable que la computadora puede entender y ejecutar.
+Este proceso es llevado a cabo por un programa llamado "compilador".
+
+
+<Ciclo de Desarollo>Nos ayuda a saber el proceso de vida que tiene un software en 7 fases:
+
+Planear: En esta etapa inicial, se identifican las necesidades y requisitos del cliente, y se define el alcance del proyecto. 
+
+Analizar:En esta etapa, se recopilan, analizan y documentan los requisitos del sistema. 
+
+Diseñar:En esta etapa, se elabora la arquitectura del sistema y se diseñan los componentes del software. 
+
+Implementación:En esta etapa, se escribe el código fuente del software siguiendo los diseños y especificaciones previamente establecidos
+
+Probar El Codigo:En esta etapa, se realizan pruebas exhaustivas para verificar que el software cumpla con los requisitos y funcione según lo previsto.
+
+Despliegue:En esta etapa, se implementa el software en el entorno de producción y se pone a disposición de los usuarios finales.
+
+Mantenimiento:En esta etapa, se realizan actualizaciones, correcciones de errores y mejoras en el software para mantenerlo funcionando de manera óptima a lo largo del tiempo.
+
