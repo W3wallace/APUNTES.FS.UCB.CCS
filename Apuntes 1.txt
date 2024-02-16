@@ -7,6 +7,10 @@ todo programa hecho en binario
 conjuntos de instrucciones y datos que permiten realizar diversas tareas en un ordenador u otro dispositivo electrónico. 
 Estas instrucciones son escritas en lenguajes de programación por los desarrolladores de software y luego se ejecutan en el hardware de la computadora para realizar diversas funciones.
 
+<Ing de Software> Es una rama informatica que se especialisa en el desarollo de software y desarollo digital
+
+*Formal*>La Ingeniería de Software es una de las ramas de las ciencias de la computación que estudia la creación de software confiable y de calidad, basándose en métodos y técnicas de ingeniería, y brindando soporte operacional y de mantenimiento.
+
 
 <Lenguaje de programación>EL leguanje de programación es para comunicarnos con el computadora y dar instrucciónes precisas
 al ordenador para realizar una tarea especificamente
