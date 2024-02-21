@@ -1,0 +1,56 @@
+WALLACE LUO CHEN
+
+DEFINICION DE LOS SIGUIENTE CONCEPTOS DE GITS
+
+
+<<GIT INIT>>:un comando que se utiliza una sola vez durante la configuración inicial de un repositorio nuevo
+
+<<FORMALMENTE>>: se utiliza para iniciar un nuevo repositorio Git en un directorio específico.
+Esto significa que convierte un directorio normal en un repositorio de Git,
+lo que permite rastrear cambios en archivos y mantener un historial de versiones.
+
+<<GIT CONFIG>>:un sistema de control de versiones distribuido, que permite configurar opciones específicas del 
+usuario para un repositorio de Git o a nivel global para todos los repositorios en el sistema.
+
+<<FORMALMENTE>>: es un comando fundamental en Git que se utiliza para configurar variables de configuración específicas de Git. 
+Estas configuraciones pueden ser a nivel global, para un usuario específico en el sistema, o a nivel local, específicamente para un repositorio de Git.
+
+<<GIT ADD>>:Un repositorio de Git y realizas modificaciones o añadir los archivos
+
+<<FORMALMENTE>>:Se utiliza para añadir cambios específicos de archivos al área de preparación (staging area) para el próximo commit.
+Formalmente, este comando permite seleccionar y preparar los cambios que deseas incluir en tu próximo commit.
+
+<<GIT COMMIT>>:Es un comando en Git que se utiliza para confirmar los cambios en el repositorio local. 
+
+<<FORMALMENTE>>:se utiliza para confirmar los cambios en el área de preparación (staging area) y registrarlos en el historial de versiones del repositorio local. 
+Este comando es esencial para mantener un registro ordenado y detallado de los cambios realizados en un proyecto.
+
+<<GIT PUSH>>:Se utiliza para enviar los commits locales que has realizado en tu repositorio local hacia un repositorio remoto.
+
+<<FORMALMENTE>>:se utiliza para enviar los commits locales de una rama específica de tu repositorio local hacia una rama correspondiente en un repositorio remoto. 
+Este comando es esencial en el flujo de trabajo colaborativo en Git, ya que permite compartir y sincronizar los cambios entre varios colaboradores.
+
+<<GIT BRANCH>>:se utiliza para trabajar con ramas (branches) en un repositorio.
+
+<<FORMALMENTE>>:se utiliza para listar, crear y manipular ramas en un repositorio. 
+Su función principal es administrar el flujo de trabajo y permitir el desarrollo paralelo de diferentes características o líneas de trabajo.
+
+<<GIT CHECKOUT>>:se utiliza principalmente para cambiar entre ramas y para restaurar archivos o directorios a un estado específico en el repositorio.
+
+<<FORMALMENTE>>:Se utiliza para cambiar el estado de tu directorio de trabajo y la rama actual en el repositorio. 
+Tiene varias funciones, pero sus usos principales son cambiar entre ramas, crear nuevas ramas y restaurar archivos o directorios a un estado específico.
+
+<<GITHUB>>:GitHub es una plataforma en línea que ofrece servicios de alojamiento de repositorios Git
+herramientas de desarrollo colaborativo y funciones de seguimiento de problemas, entre otros.
+
+<<FORMALMENTE>>:GitHub es una plataforma de desarrollo de software basada en la web que ofrece servicios de alojamiento de repositorios Git
+ gestión de proyectos, colaboración en el desarrollo de código y seguimiento de problemas.
+
+<<GITHUB PAGES>>:Permite a los usuarios crear sitios web estáticos gratuitos para proyectos, blogs personales, documentación técnica, páginas de proyectos, y mucho más.
+
+<<FORMALMENTE>>:Pages es un servicio de alojamiento de sitios web estáticos proporcionado por GitHub. 
+Formalmente, GitHub Pages permite a los usuarios publicar sitios web directamente desde repositorios de GitHub, lo que facilita la creación y distribución de contenido en línea.
+
+<<WIKI>>: crear y colaborar en documentación dentro de un repositorio.
+
+<<FORMALMENTE>>: una wiki es un sistema de gestión de contenido colaborativo que permite a múltiples usuarios crear, editar y organizar documentos de forma colaborativa
