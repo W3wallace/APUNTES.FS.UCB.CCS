@@ -1,0 +1,24 @@
+Jovenes y mujeres adultas entre 18 y 35 años buscando tener un estilo de vida saludable
+
+##1 .4 Uso previsto
+
+El público objetivo tendrá mayor comodidad
+facil a los productos que mas le gusta comprar al cliente final
+gg
+# 2. cronogramas/calendario/estaci
+on de tiempo 
+segun el siguiente digrama de gantt,vamos a proceder en la ejecucion del proyecto de la sieguiente manera:
+
+--TAREA ADJUENTAR URL DE LA IMAGEN(DIAGRAMA DE GANTT)
+
+# 3.PRESUPUESTO
+
+en la siguiente tabla de detallan a todos los costes a considerar para el proyecto:
+
+-- tarea crear la tabla y pegarla 
+
+# 4.DISEÑO
+ 
+en la sigiente imagen, se muestra la estricutra del sieño de la pagioma estilo limktree:
+
+--TAREA ADUJENTAR URL DE LA IMAGEN(PAINT DE LINKTREE)

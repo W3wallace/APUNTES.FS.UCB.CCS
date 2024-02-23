@@ -1,0 +1,12 @@
+index.html
+git add""
+git commit -m ""
+git push origin main
+
+-no
+index.html.txt
+
+W3wallace.github.io/index.html
+
+
+PARA LA TAREA DE EXEL BUSCAR EN LOS APUNTES 2 y 3
