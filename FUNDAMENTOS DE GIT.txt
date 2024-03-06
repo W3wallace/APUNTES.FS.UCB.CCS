@@ -1,0 +1,48 @@
+definicion de GIT
+
+GIT Branch:Es una rama para paralelamente con otros desarolladores
+
+<<FORMALMENTE>>:  se traduce como "rama de Git". Una rama de Git es una línea de desarrollo independiente que permite trabajar en características específicas del 
+proyecto sin afectar el código en otras ramas. Cada rama de Git puede contener diferentes cambios y versiones del código, 
+lo que facilita el desarrollo paralelo y la organización del trabajo en equipos de desarrollo.
+
+GIT Checkout:Es un comando que sirve para cambiar de entre ramas , cambiar el estado de los archivos , Crear una nueva rama y cambiar ella
+
+<<FORMALMENTE>>:s un comando utilizado en Git para cambiar entre ramas (branch), así como para cambiar el estado de los archivos en el área de trabajo.
+Cambiar entre ramas:Cuando se utiliza git checkout <nombre-de-la-rama>, cambia el estado del directorio de trabajo y del índice (staging area) para que coincida con la rama especificada.
+Cambiar el estado de los archivos: Además de cambiar entre ramas, git checkout también se utiliza para restaurar archivos a un estado específico
+Cambiar el estado de los archivos:Crear una nueva rama y cambiar a ella: Con la opción -b, git checkout puede crear una nueva rama y cambiar a ella en una sola operación
+
+GIT REMOTE:Se utiliza para administrar administrar los repositorios remotos asociados con tu repositorio local 
+
+<<FORMALMENTE>>:es un comando en Git que se utiliza para administrar los repositorios remotos asociados con tu repositorio local. 
+Los repositorios remotos son versiones de tu proyecto que se encuentran alojadas en servidores en línea o en otro lugar de tu red.
+git remote add <nombre> <url>: Agrega un nuevo repositorio remoto. <nombre> es un alias que se puede usar en lugar de la URL del repositorio remoto.
+git remote remove <nombre>: Elimina el repositorio remoto especificado.
+git remote -v: Muestra los nombres de los repositorios remotos configurados junto con sus respectivas URL. La opción -v muestra las URL junto con los nombres.
+git remote rename <nombre-viejo> <nombre-nuevo>: Cambia el nombre de un repositorio remoto.
+git remote set-url <nombre> <nueva-url>: Cambia la URL de un repositorio remoto.
+
+GIT CLONE: Es un comando que se utiliza para copiar desde un repositorio local remoto.
+
+<<FORMALMENTE>>:es un comando en Git que se utiliza para crear una copia local de un repositorio Git remoto. 
+Este comando descarga todos los archivos del repositorio remoto y crea una copia exacta en tu máquina local. La sintaxis básica del comando es la siguiente:
+<URL del repositorio remoto> es la dirección URL del repositorio remoto que deseas clonar.
+[<directorio de destino>] es opcional y especifica el nombre del directorio donde deseas que se clone el repositorio. Si no se proporciona, 
+Git utilizará el nombre del proyecto del repositorio remoto como nombre del directorio.deseas clonar un repositorio llamado "myproject" desde GitHub a tu máquina local y deseas que se clone en un directorio llamado "proyectos", 
+puedes ejecutar el siguiente comando:
+
+Copy code
+git clone https://github.com/usuario/myproject proyectos
+Una vez que se completa el comando, Git descargará el repositorio remoto "myproject" en el directorio "proyectos" de tu máquina local y 
+configurará el repositorio local para que pueda seguir haciendo un seguimiento de los cambios y contribuir al proyecto si lo deseas.
+
+GIT MERGE:Es un comando que sirve para fusionar cambios de una rama de otra 
+
+<<FORMALMENTE>>:Se utiliza comúnmente para integrar los cambios realizados en una rama secundaria de desarrollo de una característica o 
+corrección de errores de vuelta a la rama principal del proyecto, como la rama "master" o "main".
+
+GIT Fork:se refiere a la creación de una copia independiente de un repositorio Git existente
+
+<<FORMALMENTE>>Esta copia se realiza en tu cuenta de Git (por lo general, en un servicio como GitHub, GitLab o Bitbucket) y 
+te permite trabajar en el proyecto de forma separada, sin afectar el repositorio original.
