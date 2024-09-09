@@ -1,0 +1,85 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    
+    string nombres;
+    string carrera;
+    int edad;
+    float altura;
+    string f_nac;
+
+
+    cout<<"Porfavor, Ingrese su Nombre";
+    cin>>nombres;
+
+    cout<<"Porfavor, Ingrese su carrera";
+    cin>>carrera;
+
+    cout<<"Porfavor, ingrese su edad";
+    cin>>edad;
+
+    cout<<"Porfavor, Ingrese su altura";
+    cin>>altura;
+
+    cout<<"Porfavor, Ingrese su fecha de nacimiento"<<endl;
+    cin>>f_nac;
+
+    cout<<"Estimado@"<<nombres<<", Bienvenid@ a la carrarera de "<<carrera<<endl;
+
+    cout<<"Sus datos ingresado son"<<endl;
+    
+    cout<<"Edad: "<<edad<<endl;
+    cout<<"Su Altura: "<<altura<<endl;
+    cout<<"Su Fecha Nacimiento: "<<f_nac<<endl;
+
+
+
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    string nombre, carrera;
+    int edad;
+
+    cout << "Ingrese su nombre: ";
+    cin >> nombre;
+
+    cout << "Ingrese su edad: ";
+    cin >> edad;
+
+    cout << "Ingrese su carrera: ";
+    cin.ignore(); // Ignora el salto de línea pendiente de la entrada anterior
+    getline(cin, carrera);  // Utiliza getline para capturar toda la línea
+
+    cout << "Hola " << nombre << ", tienes " << edad << " años y estudias " << carrera << "." << endl;
+
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    return 0;
+}
+
