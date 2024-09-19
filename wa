@@ -1,0 +1,83 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+//Seccion entrada
+    float largo_g;
+    float ancho_g;
+    float alto_g;7
+    float largo_d;
+    float ancho_d;
+    float alto_d;
+    int porcentaje_min;
+//Variables de Salida
+    int cant_autos_cl;   
+    int cant_moto;
+    int cant_camion;
+    int cant_microbus;
+    int cant_tractor;
+//Variables Auxilidar
+    float Cap_tot_tanque_gas;
+    float Cap_min_gas;
+    float Cap_uso_gas;
+    float Cap_tot_tanque_diesel;
+    float Cap_min_die;
+    float Cap_uso_die;
+    float Cap_auto_cl = 25;
+    float Cap_moto = 11;  
+    float Cap_camion = 50;
+    float Cap_microbus = 30;
+    float Cap_tractor = 25;
+
+//Ingreso de Datos
+    cout<<"Ingrese el largo de tanque de gasolina"<<endl;
+    cin>>largo_g;
+    cout<<"Ingrese el ancho de tanque de gasolina"<<endl;
+    cin>>ancho_g;
+    cout<<"Ingrese el alto de tanque de gasolina"<<endl;
+    cin>>alto_g;
+    cout<<"Ingrese el largo de tanque del diesel"<<endl;   
+    cin>>largo_d;                  
+    cout<<"Ingrese el ancho de tanque del diesel"<<endl;
+    cin>>ancho_d;
+    cout<<"Ingrese el alto de tanque de diesel"<<endl;
+    cin>>alto_d;
+//para el usuario use el porcentage
+    cout<<"Ingrese la cantidad de porcentaje minimo de gasolina"<< endl;
+    cin>>porcentaje_min;
+
+    
+//operanaciones
+//Seccion de Capacidad gasolina
+    Cap_tot_tanque_gas = (largo_g*ancho_g*alto_g);
+    Cap_min_gas = (Cap_tot_tanque_gas*po/100);
+    Cap_uso_gas =(Cap_tot_tanque_gas-Cap_min_gas);
+    Cap_uso_gas = (Cap_uso_gas*1000);
+//seccion de Capacidad Diesel 
+    Cap_tot_tanque_diesel = (largo_d*ancho_d*alto_d);
+    Cap_min_die = (Cap_tot_tanque_diesel*Cap_min_die/100);
+    Cap_uso_die = (Cap_tot_tanque_diesel-Cap_min_die);
+    Cap_uso_die = (Cap_uso_die*1000);
+
+//operamciones con autos
+    cant_autos_cl = (Cap_uso_gas/Cap_auto_cl);
+    cant_moto = (Cap_uso_gas/Cap_moto);
+    cant_camion = (Cap_uso_die/Cap_camion);
+    cant_microbus = (Cap_uso_die/Cap_microbus);
+    cant_tractor = (Cap_uso_die/Cap_tractor);
+
+//Salida
+
+    cout<<"La cantidad de autos clasicos pueden abastecerse es "<< cant_autos_cl<<endl;
+    cout<<"La cantida de Motos pueden abastecerse es "<< cant_moto << endl;
+    cout<<"La cantidad de Camaion pueden abastecerse es "<< cant_camion << endl;
+    cout<<"La cantidad de microbus pueden abastecerse es "<< cant_microbus << endl;
+    cout<<"La cantidad de tractor pueden abastecerse es "<< cant_tractor << endl;
+
+
+
+
+
+    return 0;
+}
